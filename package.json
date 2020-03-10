@@ -1,0 +1,20 @@
+{
+  "name": "createBlogCard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.46",
+    "netlify-lambda": "^1.6.3",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "dev": "netlify-lambda serve src/api --port 3001",
+    "build": "netlify-lambda build src/api --port 3001"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.8.3"
+  }
+}
